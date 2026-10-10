@@ -1,0 +1,19 @@
+#al-tt-layer { position: fixed; inset: 0; pointer-events: none; z-index: 10; }
+#al-tt-layer .al-glow, #al-tt-layer .al-edge {
+  position: absolute; left: 0; top: 0; opacity: 0; pointer-events: none; transform-origin: 0 0;
+}
+#al-tt-layer .al-glow { will-change: transform, opacity; }
+
+/* Edge feathering: applied to EVERY <video> through one rule, so no video is missed as TikTok recycles them.
+   Only the video pixels are masked; captions, controls and buttons are separate elements and stay crisp.
+   --al-fs is the horizontal feather in % of width; the vertical value is scaled by 9:16 so both edges look equally soft. */
+html[data-al-feather] video {
+  --al-mask:
+    linear-gradient(to right, transparent 0, #000 calc(var(--al-fs, 0) * 1%), #000 calc(100% - var(--al-fs, 0) * 1%), transparent 100%),
+    linear-gradient(to bottom, transparent 0, #000 calc(var(--al-fs, 0) * 0.5625 * 1%), #000 calc(100% - var(--al-fs, 0) * 0.5625 * 1%), transparent 100%);
+  -webkit-mask-image: var(--al-mask); mask-image: var(--al-mask);
+  -webkit-mask-composite: source-in; mask-composite: intersect;
+}
+video[data-al-static] { position: relative; }
+/* Glow copy sitting directly BEHIND the video (below captions/controls); shows through the feathered edge. */
+.al-inner { position: absolute; margin: 0; padding: 0; opacity: 0; pointer-events: none; }

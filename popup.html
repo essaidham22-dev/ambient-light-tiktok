@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="color-scheme" content="dark">
+  <title>Ambient Light for TikTok</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="title"><strong>Ambient Light</strong><span>for TikTok</span></div>
+    <label class="switch" title="Turn the ambient glow on or off">
+      <input type="checkbox" data-k="enabled" aria-label="Ambient light on or off"><i></i>
+    </label>
+  </header>
+  <main id="groups"></main>
+  <footer>
+    <button id="reset" type="button">Reset</button>
+    <span id="status" role="status" aria-live="polite"></span>
+    <button id="export" type="button">Export</button>
+    <button id="import" type="button">Import</button>
+    <input type="file" id="file" accept="application/json" hidden>
+  </footer>
+  <script src="defaults.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
