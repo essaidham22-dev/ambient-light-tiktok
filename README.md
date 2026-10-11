@@ -6,16 +6,13 @@ Ambient Light for TikTok adds reactive, glowing ambient lighting around TikTok v
 
 These examples show the ambient lighting adapting to different TikTok videos.
 
-<table>
-  <tr>
-    <td><img src="docs/screenshots/ambient-light-bugatti.png" alt="Bugatti TikTok preview" width="420"></td>
-    <td><img src="docs/screenshots/ambient-light-anime.png" alt="Anime TikTok preview" width="420"></td>
-  </tr>
-  <tr>
-    <td><img src="docs/screenshots/ambient-light-football.png" alt="Football TikTok preview" width="420"></td>
-    <td><img src="docs/screenshots/ambient-light-space.png" alt="Space TikTok preview" width="420"></td>
-  </tr>
-</table>
+| Bugatti | Anime |
+| --- | --- |
+| ![Bugatti TikTok preview](./docs/screenshots/ambient-light-bugatti.png) | ![Anime TikTok preview](./docs/screenshots/ambient-light-anime.png) |
+
+| Football | Space |
+| --- | --- |
+| ![Football TikTok preview](./docs/screenshots/ambient-light-football.png) | ![Space TikTok preview](./docs/screenshots/ambient-light-space.png) |
 
 ## Install in Chrome (developer mode)
 
