@@ -8,11 +8,11 @@ These examples show the ambient lighting adapting to different TikTok videos.
 
 | Bugatti | Anime |
 | --- | --- |
-| ![Bugatti TikTok preview](./docs/screenshots/ambient-light-bugatti.png) | ![Anime TikTok preview](./docs/screenshots/ambient-light-anime.png) |
+| ![Bugatti TikTok preview](https://raw.githubusercontent.com/essaidham22-dev/ambient-light-tiktok/main/docs/screenshots/ambient-light-bugatti.png) | ![Anime TikTok preview](https://raw.githubusercontent.com/essaidham22-dev/ambient-light-tiktok/main/docs/screenshots/ambient-light-anime.png) |
 
 | Football | Space |
 | --- | --- |
-| ![Football TikTok preview](./docs/screenshots/ambient-light-football.png) | ![Space TikTok preview](./docs/screenshots/ambient-light-space.png) |
+| ![Football TikTok preview](https://raw.githubusercontent.com/essaidham22-dev/ambient-light-tiktok/main/docs/screenshots/ambient-light-football.png) | ![Space TikTok preview](https://raw.githubusercontent.com/essaidham22-dev/ambient-light-tiktok/main/docs/screenshots/ambient-light-space.png) |
 
 ## Install in Chrome (developer mode)
 
